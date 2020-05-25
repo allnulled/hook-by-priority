@@ -1,0 +1,24 @@
+{
+  "name": "hook-by-priority",
+  "version": "1.0.0",
+  "description": "Hooking system using priority numbers.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.test.js",
+    "test:readme": "node test/readme.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/hook-by-priority.git"
+  },
+  "keywords": [],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/allnulled/hook-by-priority/issues"
+  },
+  "homepage": "https://github.com/allnulled/hook-by-priority#readme"
+}
