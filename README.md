@@ -31,13 +31,13 @@ const add = function(char, data) {
 	});
 };
 
-hooks.add("on:init", async params => await add("e", params.msg), 90);
-hooks.add("on:init", async params => await add("!", params.msg), 50);
-hooks.add("on:init", async params => await add("l", params.msg), 70);
-hooks.add("on:init", async params => await add("o", params.msg), 60);
-hooks.add("on:init", async params => await add("l", params.msg), 80);
-hooks.add("on:init", async params => await add("H", params.msg), 100);
-hooks.use("on:init", { msg: "" })
+hooks.add("on:init", async params => await add("e", params), 90);
+hooks.add("on:init", async params => await add("!", params), 50);
+hooks.add("on:init", async params => await add("l", params), 70);
+hooks.add("on:init", async params => await add("o", params), 60);
+hooks.add("on:init", async params => await add("l", params), 80);
+hooks.add("on:init", async params => await add("H", params), 100);
+hooks.use("on:init", { msg: "" }).then(output => console.log(output.msg));
 ```
 
 This script is also under `test/readme.test.js` file of the project.

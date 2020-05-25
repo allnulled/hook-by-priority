@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/allnulled/hook-by-priority.git"
   },
-  "keywords": [],
+  "keywords": ["hooks"],
   "author": "allnulled",
   "license": "WTFPL",
   "bugs": {
