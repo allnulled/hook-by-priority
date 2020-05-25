@@ -1,6 +1,6 @@
 {
   "name": "hook-by-priority",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hooking system using priority numbers.",
   "main": "index.js",
   "directories": {
@@ -14,7 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/allnulled/hook-by-priority.git"
   },
-  "keywords": ["hooks"],
+  "keywords": [
+    "hooks"
+  ],
   "author": "allnulled",
   "license": "WTFPL",
   "bugs": {
